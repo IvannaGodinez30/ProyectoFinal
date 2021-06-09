@@ -1,0 +1,77 @@
+.cafe{
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+}
+
+.cafe-img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.cafeonline{
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+}
+
+.cafe-online-img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.rally{
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+}
+
+.rally img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.desfile{
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+}
+
+.desfile img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.hackathon{
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+}
+
+.hackathon img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.billancicos{
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+}
+
+.billancicos img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}

@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+body{
+  margin: 0;
+}
+
+.encabezado-pagina{
+  background-color: rgb(55, 140, 161);
+  height:60px ;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.encabezado-redes-sociales{
+  color: white;
+}
+
+
+nav{
+  height:80px;
+  background-color: rgb(154, 195, 243);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav .nav-imagen img{
+  height:60px;
+}
+nav .nav-menu ul{
+  display: flex;
+  list-style-type: none;
+}
+nav .nav-menu-ul li{
+  margin-right:20px;
+}
+nav .nav-menu a{
+  text-decoration: none;
+}
+.main{
+  height: 80vh;
+  background-image: url("portada.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;/*centrado vertical*/
+  justify-content: center;/*centra horizontal*/
+  /*deben de llevar un display siempre con anterioridad*/
+}
+.main-section{
+  color: whitesmoke;
+  text-align: center;
+}
+.main-section h1{
+  font-size: 120px;
+  margin-bottom: 0;
+  font-family:cursive;
+  text-shadow: 2px 2px black;
+}
+.main-section p{
+  font-size: 25px;
+  margin-top: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow: 2px 2px black;
+}
+.main-section button{
+  background-color:cadetblue;
+  width: 200px;
+  height:50 ;
+  color: whitesmoke;
+  font-family: cursive;
+  font-size: 25px;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+
+}
+.footer{
+  height: 60px;
+  background-image: linear-gradient(#007991, #78ffd6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-family: cursive;
+
+}.proyectos-main{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top:50px;
+}
+
+.proyectos-imagen{
+    width: 600px;
+}
+
+.proyectos-imagen img{
+    width:90%;
+}
+
+.informacion{
+    width:600px;
+    font-family: 'Roboto';
+    /* margin-left: 50px */
+}
+
+.informacion h1{
+    font-family: 'Bebas Neue';
+    font-size: 80px;
+    margin-bottom:0;
+}
+
+.informacion ul{
+    list-style: none;
+    padding-left: 15px;
+}
+
+.informacion li{
+    margin-bottom: 15px;;
+}
+
+.botonera{
+    text-align: center;
+}
+
+.botonera button{
+    background-color:#10505c;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-family: 'Roboto Mono';
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.botonera button:focus{
+    background-color:#27c2dd;
+}
+.blog-autor{
+    width: 60%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+}
+
+.blog-autor h3{
+    font-size: 30px;
+    margin: 0;
+}
+
+.blog-autor p{
+    margin: 0;
+}
+
+.autor-imagen{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.autor-imagen img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.nav-imagen img{
+    height: 450px;
+    border-radius: 15px;
+    margin: 20px;
+}
+.nombre-yo h1{
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Roboto Condensed';
+    }
+
+.nombre-yo h2{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Roboto Condensed';
+}
+
+.nombre-yo h3{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto Condensed';
+}
+.contenedor-proyectos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-top: 0;
+    padding: 30px;
+}
+.contenedor-proyectos-again{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-top: 0;
+    padding: 30px;
+}
+.proyecto1 button{
+    background-color: #10505c;
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+}
+
+.proyecto2 button{
+    background-color: #10505c;
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+}
+
+.proyecto3 button{
+    background-color: #10505c;
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+}
+
+.proyecto4 button{
+    background-color: #10505c;
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+}
+
+.proyecto5 button{
+    background-color: #10505c;
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+}
+
+.proyecto6 button{
+    background-color: #10505c;
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+}
+
+.proyecto1{
+    width: 200px;
+    height: 200px;  
+    margin: 0;
+    margin-bottom: 15px;  
+}
+
+.proyecto2{
+    width: 200px;
+    height: 200px;  
+    margin: 0;
+    margin-bottom: 15px;  
+}
+
+.proyecto3{
+    width: 200px;
+    height: 200px;  
+    margin: 0;
+    margin-bottom: 15px;  
+}
+
+.proyecto4{
+    width: 200px;
+    height: 200px;  
+    margin: 0;
+    margin-bottom: 15px;  
+}
+
+.proyecto5{
+    width: 200px;
+    height: 200px;  
+    margin: 0;
+    margin-bottom: 15px;  
+}
+
+.proyecto6{
+    width: 200px;
+    height: 200px;  
+    margin: 0;
+    margin-bottom: 15px;  
+}
+
+.proyecto3 h1{
+    text-align: center;
+}
+
+.proyecto3 h2{
+    text-align: center;
+}
+
+.proyecto3 h3{
+    text-align: center;
+}
+
+.proyecto3 h4{
+    text-align: center;
+}
+
+.proyecto3 h5{
+    text-align: center;
+}
+
+.proyecto3 h6{
+    text-align: center;
+}
+
+.proyectos-imagen img{
+    width: 60%;
+
+}
+
+.acercademi img {
+  width: 60%;
+  margin-left: 50px;
+}
+.yomera-imagen{
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.yomera-imagen img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
